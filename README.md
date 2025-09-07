@@ -30,6 +30,8 @@ caller gets and update and when the whole pipeline is done, caller gets a done s
 
 ## Installation
 
+Python Version: 3.9.6
+
 1. Clone the repository:
 ```bash
 git clone https://github.com/yuman311/task-pipeline-2.git
