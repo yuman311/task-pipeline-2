@@ -19,8 +19,8 @@ caller gets and update and when the whole pipeline is done, caller gets a done s
 ## Features
 
 - **Python Tasks**: Execute functions like `multiply` or `add` with dynamic inputs.
-- **API Tasks**: Fetch data from external APIs using task outputs as input.
-- **LLM Tasks**: Generate content using Cohere’s API.
+- **API Tasks**: Fetch product data from a dummy endpoint: [https://dummyjson.com/products](https://dummyjson.com/products). The output of Python tasks can be used as input for the API task.
+- **LLM Tasks**: Generate content (like a poem) using Cohere’s API based on API task results.
 - **Dynamic Inputs**: Users can provide `x` and `y` values via Streamlit UI.
 - **Operation Selection**: Choose between multiplication or addition.
 - **Live Updates**: Pipeline execution updates displayed in real-time.
