@@ -35,10 +35,15 @@ caller gets and update and when the whole pipeline is done, caller gets a done s
 git clone https://github.com/yuman311/task-pipeline-2.git
 cd task-pipeline-2
 ```
+```bash
 python3 -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\Scripts\activate 
-
+```
+```bash
+source venv/bin/activate
+```
+```bash
 pip install -r requirements.txt
-
+```
+```bash
 streamlit run tasks.py
+```
